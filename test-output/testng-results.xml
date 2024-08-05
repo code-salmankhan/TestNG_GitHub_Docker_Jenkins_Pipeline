@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T12:45:56 AEST" name="Suite" finished-at="2024-08-05T12:46:10 AEST" duration-ms="13791">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T12:45:56 AEST" name="Test" finished-at="2024-08-05T12:46:10 AEST" duration-ms="13791">
+      <class name="docker.ChromeTest1">
+        <test-method signature="test1()[pri:0, instance:docker.ChromeTest1@38c6f217]" started-at="2024-08-05T12:45:56 AEST" name="test1" finished-at="2024-08-05T12:46:10 AEST" duration-ms="13763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- docker.ChromeTest1 -->
+      <class name="docker.Setup_DockerGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-08-05T12:45:41 AEST" name="startDockerGrid" finished-at="2024-08-05T12:45:56 AEST" duration-ms="15005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method signature="start()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-08-05T12:45:56 AEST" name="start" finished-at="2024-08-05T12:45:56 AEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@6c64cb25]" started-at="2024-08-05T12:46:10 AEST" name="stopDockerGrid" finished-at="2024-08-05T12:46:25 AEST" duration-ms="15001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.Setup_DockerGrid -->
+      <class name="docker.ChromeTest3">
+        <test-method signature="test3()[pri:0, instance:docker.ChromeTest3@478190fc]" started-at="2024-08-05T12:45:56 AEST" name="test3" finished-at="2024-08-05T12:46:04 AEST" duration-ms="7220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- docker.ChromeTest3 -->
+      <class name="docker.ChromeTest2">
+        <test-method signature="test2()[pri:0, instance:docker.ChromeTest2@79e2c065]" started-at="2024-08-05T12:45:56 AEST" name="test2" finished-at="2024-08-05T12:46:04 AEST" duration-ms="7883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- docker.ChromeTest2 -->
+      <class name="docker.FireFoxTest">
+        <test-method signature="test4()[pri:0, instance:docker.FireFoxTest@399f45b1]" started-at="2024-08-05T12:45:56 AEST" name="test4" finished-at="2024-08-05T12:46:05 AEST" duration-ms="8337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- docker.FireFoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
